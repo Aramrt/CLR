@@ -7,7 +7,7 @@
 using namespace System;
 using namespace System::Collections::Generic;
 using namespace System::Runtime::InteropServices;
-using namespace cv;sdd
+using namespace cv;
 namespace CLR 
 {
     public ref class Converter
