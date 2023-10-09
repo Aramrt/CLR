@@ -8,7 +8,7 @@ using Emgu.CV.Structure;
 using Emgu.CV.CvEnum;
 using Emgu.Util;
 using System.IO;
-using CliRef;
+using ConvertByteArr2CvMat;
 
 namespace CsProject
 {
