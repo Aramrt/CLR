@@ -19,10 +19,8 @@ namespace CsProject
             Mat srcImg = CvInvoke.Imread(@"C:\Users\a.rostami\Desktop\github\Ronaldo.jpg");
             int Height = srcImg.Height;
             int Width = srcImg.Width;
-            String Name;
             Tester test = new Tester();
-            bool B1 = test.Passing_Ref(srcImg.GetData(), Height, Width, out Name);
-            var check = B1;
+            test.Passing_Ref(srcImg.GetData(), Height, Width);
         }
     }
 }
